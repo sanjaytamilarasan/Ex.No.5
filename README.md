@@ -1,38 +1,64 @@
+# EXPERIMENT – 5  
+# COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS (Instructional Pattern)
+## NAME: Sanjay T
+## REG NO: 212222040147
 
+---
 
-# EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
+## Aim  
+To test and compare how **Instructional Prompt Pattern** responds to naïve (unstructured) prompts versus refined (structured) prompts across different scenarios, and to analyze the **quality, accuracy, and depth** of the generated responses.  
 
-# Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
+---
 
-### AI Tools Required: 
+## AI Tools Required  
+- ChatGPT (GPT-5)  
+- Instructional Prompt Pattern  
 
-# Explanation: 
-Define the Two Prompt Types:
+---
 
-Write a basic Prompt: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
-Based on that pattern type refined the prompt and submit that with AI tool.
-Get the ouput and write the report.
+## Explanation  
+**Prompt Types:**  
+1. **Naïve Prompt** – broad, unstructured, minimal context.  
+2. **Structured Prompt (Instructional)** – clear, detailed, and step-by-step instructions guiding the AI.  
 
-Prepare Multiple Test Scenarios:
-Select various scenarios such as:
-Generating a creative story.
-Answering a factual question.
-Summarizing an article or concept.
-Providing advice or recommendations.
-Or Any other test scenario
-For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+In the Instructional Pattern, the prompt is designed with **specific requirements, format, and constraints** to ensure predictable and accurate outputs.  
 
+---
 
-# OUTPUT
+## Test Scenarios  
+1. Creative Story Generation  
+2. Factual Question Answering  
+3. Concept Summarization  
+4. Giving Advice or Recommendations  
 
-# RESULT: The prompt for the above said problem executed successfully
+---
+
+## Observations  
+
+### Table – Naïve vs. Instructional Prompts  
+
+| Scenario       | Naïve Prompt                           | Response Quality                        | Instructional Prompt                                                                                   | Response Quality                          |
+|----------------|----------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| Story          | “Write me a story.”                   | Short, generic, no theme.                | “Write a 300-word science fiction story where a robot discovers emotions on Mars. Include setting, conflict, and resolution.” | Rich detail, clear structure, engaging.   |
+| Factual Q      | “Tell me about World War 2.”          | Long, unfocused, missing chronology.     | “Summarize World War 2 in 200 words, covering causes, key battles, and outcomes in bullet points.”       | Concise, structured, accurate.            |
+| Summarization  | “Explain photosynthesis.”              | Overly broad, lengthy explanation.       | “Summarize photosynthesis in 5 bullet points highlighting light and dark reactions. Use simple language.”| Precise, easy to understand, well-organized.|
+| Advice         | “How to stay healthy?”                 | Generic advice, repetitive.              | “List 5 daily habits for working professionals to improve physical and mental health, with one-line justification for each.” | Practical, specific, context-aware.       |
+
+---
+
+## Analysis  
+- **Naïve prompts** → produced vague, generic, or overly long answers.  
+- **Instructional prompts** → consistently yielded higher **quality** (clarity, relevance), stronger **accuracy** (facts in correct order), and better **depth** (detailed but structured).  
+- For **creative tasks**, structured prompts ensured richer storytelling.  
+- For **factual and summarization tasks**, they reduced unnecessary detail and improved clarity.  
+- **Advice/recommendations** became more context-specific and useful.  
+
+---
+
+## OUTPUT  
+The implementation of the **Instructional Prompt Pattern** showed that refined prompts significantly improved the **structure, clarity, and depth** of responses compared to naïve prompts across all scenarios.  
+
+---
+
+## RESULT  
+The experiment was executed successfully. The **Instructional Prompt Pattern** proved to deliver more accurate, detailed, and high-quality outputs than naïve prompting.  
